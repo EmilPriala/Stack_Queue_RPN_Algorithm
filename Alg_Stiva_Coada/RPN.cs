@@ -24,7 +24,7 @@ namespace Alg_Stiva_Coada
         }
         public float Eval()
         {
-            string[] data = value.Split(',');
+            string[] data = value.Split(' ');
             TADL a = new MyStack();
             for (int i = 0; i < data.Length - 1; i++)
             {
